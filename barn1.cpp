@@ -17,7 +17,7 @@ using namespace std;
 
 int M, S, C, ans;
 int A[MAXC];
-int memo[MAXC][MAXM];
+int memo[MAXC][MAXM+1];
 
 int best( int i, int m ) {
 
