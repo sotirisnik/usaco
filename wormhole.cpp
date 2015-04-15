@@ -6,7 +6,6 @@ LANG: C++
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include <set>
 #include <algorithm>
 
 #define MAXN 12
