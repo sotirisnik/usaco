@@ -19,7 +19,7 @@ int n, x, cnt, ans;
 int A[MAXN], B[MAXS];
 bool exists[MAXD];
 
-bool is_prime( int i ) {
+bool is_prime( int x ) {
 
     if ( x < 2 ) {
         return ( false );
