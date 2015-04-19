@@ -18,7 +18,7 @@ LANG: C++
 
 using namespace std;
 
-int A[MAXN+1], cnt[MAXVAL], memo[MAXN+1][MAXN+1];
+int A[MAXN+1], cnt[MAXVAL];
 int n, cost;
 
 struct state {
