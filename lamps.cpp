@@ -77,6 +77,7 @@ string kform( string tmp ) {
 }
 
 void check( string tmp ) {
+    
     for ( int i = 0; i < ON.size(); ++i ) {
         if ( tmp[ ON[i] ] == '0' ) {
             return;
@@ -88,7 +89,9 @@ void check( string tmp ) {
             return;
         }
     }
+    
     m.insert( tmp );
+    
 }
 
 int main( ) {
